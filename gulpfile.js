@@ -36,6 +36,7 @@ const sassOpts = {
     outputStyle: 'compressed',
     includePaths: [
         libs + '/normalize-scss/scss',
+        libs + '/font-awesome/scss/font-awesome.scss',
     ]
 };
 

@@ -1,0 +1,25 @@
+$color-white: #fff;
+$color-black: #000;
+$color-primary: #337ab7;
+$color-secondary: #7f7e82;
+$color-bg: #eee;
+$color-text: #111;
+
+$base-font-family: 'Roboto', sans-serif;
+$base-font-size: 16px;
+$base-line-height: 1.4;
+
+$space-huge: 100px;
+$space-large: 50px;
+$space-medium: 30px;
+$space-small: 20px;
+$space-very-small: 10px;
+
+$breakpoints: (
+	xs: 0px,
+	s: 576px,
+	m: 768px,
+	l: 992px,
+	xl: 1200px
+);
+

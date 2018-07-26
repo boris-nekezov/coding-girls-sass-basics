@@ -1,0 +1,48 @@
+
+
+.bp-indicator {
+    position: fixed;
+
+    height: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+
+    &:before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        color: $color-white;
+
+        @include bp(xs){
+            content: 'Breakpoint xs: min-width 0px';
+            background: lightseagreen;
+        }
+        @include bp(s){
+            content: 'Breakpoint s: min-width 576px';
+            background: crimson;
+        }
+        @include bp(m){
+            content: 'Breakpoint m: min-width 768px';
+            background: yellowgreen;
+        }
+        @include bp(l){
+            content: 'Breakpoint l: min-width 992px';
+            background: orange;
+        }
+        @include bp(xl){
+            content: 'Breakpoint xl: min-width 1200px';
+            background: dodgerblue;
+        }
+    }
+
+}

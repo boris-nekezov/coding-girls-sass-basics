@@ -1,31 +1,41 @@
 {
-    "name": "Gulp-simple-starter",
-    "version": "1.0.0",
-    "devDependencies": {
-        "babel-core": "^6.26.3",
-        "babel-preset-env": "^1.7.0",
-        "babel-preset-es2015": "^6.24.1",
-        "babelify": "^8.0.0",
-        "browserify": "^16.2.2",
-        "gulp": "^3.9.1",
-        "gulp-autoprefixer": "^5.0.0",
-        "gulp-babel": "^7.0.1",
-        "gulp-concat": "^2.6.1",
-        "gulp-notify": "^3.2.0",
-        "gulp-plumber": "^1.2.0",
-        "gulp-sass": "^4.0.1",
-        "gulp-sourcemaps": "^2.6.4",
-        "normalize-scss": "^7.0.0",
-        "vinyl-buffer": "^1.0.1",
-        "vinyl-source-stream": "^2.0.0"
-    },
-    "eslintConfig": {
-        "parserOptions": {
-            "ecmaVersion": 6,
-            "sourceType": "module"
-        }
-    },
-    "browserify": {
-        "transform": [["babelify", { "presets": ["es2015"] }]]
+  "name": "Gulp-simple-starter",
+  "version": "1.0.0",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "normalize-scss": "^7.0.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
     }
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  }
 }
